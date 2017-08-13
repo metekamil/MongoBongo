@@ -1,0 +1,4 @@
+{
+   "sourceDB" : "mongodb://localhost",
+   "targetDB" : "mongodb://localhost"
+}
