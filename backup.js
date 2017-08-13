@@ -11,20 +11,9 @@ var MongoClient = require('mongodb').MongoClient;
 var config = require('./config.json');
 
 //Source Database and Collections to backup.
-var sourceDatabase = "spring";
+var sourceDatabase = "yourdbname";
 var collections = [
-                   "users",
-                   "leads",
-                   "leadpoolitems",
-                   "downstreams",
-                   "bannedusers",
-                   "bannedips",
-                   "agencydocuments",
-                   "sitecustoms",
-                   "sites",
-                   "custompages",
-                   "userwhitelists",
-                   "sellerleads"
+                   "collectionnamehere"
 ];
 
 var cMessage="";
