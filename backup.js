@@ -159,7 +159,7 @@ console.log();
 
                             index++;
                             if (new Date() > day) {
-                                schedules[0]["currentSchedule"][index] = new Date(moment(day).add(dayInterval, 'day'));
+                                schedules[0]["currentSchedule"][index] = new Date(moment(new Date()).add(dayInterval, 'day'));
                             }
 
                             if (dayInterval<7) {
