@@ -20,11 +20,13 @@ Configure your source and destination servers in the config.json file.
 
 Specific source database name and collection names in backup.js
 
+```
 var sourceDatabase = "yourdbname";
+
 var collections = [
                    "collectionnamehere"
 ];
-
+```
 
 # Start application
 
