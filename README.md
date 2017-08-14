@@ -7,7 +7,7 @@ The application will create a backup history on the targer mongo server for each
 Example output on the destination server, if you was to have a collection "mycollection" backed up from the source mongo server.
 
 
-#Setup
+# Setup
 
 Configure your source and destination servers in the config.json file.
 
@@ -32,7 +32,7 @@ var collections = [
 node backup.js
 ```
 
-#Sample Output
+# Sample Output
 
 ```
 Source DB collection
