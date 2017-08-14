@@ -6,6 +6,16 @@ The application will create a backup history on the targer mongo server for each
 
 Example output on the destination server, if you was to have a collection "mycollection" backed up from the source mongo server.
 
+
+Configure your source and destination servers in the config.json file.
+```
+{
+   "sourceDB" : "mongodb://localhost",
+   "targetDB" : "mongodb://localhost"
+}
+```
+
+
 ```
 Source DB collection
 mycollection
